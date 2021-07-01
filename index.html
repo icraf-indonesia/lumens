@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>LUMENS v2.0.0</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body style="background: white;">
+    <h1>Land Use for Multiple Environmental Services</h1>
+    
+    <video></video>
+    <button id="startBtn" class="button is-primary">Start</button>
+    <button id="stopBtn" class="button is-warning">Stop</button>
+    <hr/>
+    <button id="videoSelectBtn" class="button is-text">Choose a video source</button>
+    <hr/>
+    <a href="#" class="act-btn">+</a>
+    <button id="purWindowBtn">PUR</button>
+    <button id="quesWindowBtn">QUES</button>
+    <button id="taWindowBtn">TA</button>
+    <button id="sciendoWindowBtn">SCIENDO</button>
+    <script>
+        require("./src/pur.js");
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+    "name": "lumens",
+    "version": "2.0.0",
+    "description": "Land Use Planning for Multiple Environmental Services",
+    "main": "main.js",
+    "devDependencies": {
+        "electron": "^13.1.4"
+    },
+    "scripts": {
+        "start": "electron ."
+    },
+    "keywords": ["land use", "carbon", "scenario", "economic", "simulation"],
+    "author": "Alfa Nugraha <alfa.nugraha4@gmail.com>"
+}
