@@ -1,3 +1,9 @@
+# node.js
 node_modules
+
+# other
 .vscode
 *.txt
+
+# readthedocs
+_build
