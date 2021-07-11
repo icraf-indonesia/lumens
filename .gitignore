@@ -3,7 +3,8 @@ node_modules
 
 # other
 .vscode
-*.txt
+RPackage.txt
+start_pgsql13.txt
 
 # readthedocs
 _build
